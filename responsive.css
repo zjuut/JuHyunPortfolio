@@ -263,12 +263,12 @@
     height: 60px;
   }
   .project_tit {
-    font-size: 1.4rem;
-    margin-left: 15px;
-    line-height: 1.6em;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    line-height: 1.5em;
   }
   .project_tit span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #716b79;
     display: block;
   }
