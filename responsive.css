@@ -367,8 +367,28 @@
 }
 
 @media screen and (max-width:767px) {
-
-
+  /* Section : Portfoilo */
+  .project_img_wr {
+    white-space: nowrap;
+  }
+  .project_img_pc,
+  .project_img_m {
+    display: inline-block;
+    height: 195px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-position: top;
+  }
+  .project_img_pc {
+    width: 310px;
+    transition: 3s 0.15s ease-in-out;
+  }
+  .project_img_m {
+    width: 90px;
+    margin-left: 10px;
+    transition: 4s 0.15s ease-in-out;
+  }
+  
 
 
 
