@@ -53,11 +53,12 @@ $(function(){
 
   if(window.matchMedia('screen and (max-width : 1023px)').matches){
     /* HTML Change */
-    $('.hd_menu_inner ul').after($('.hd_rt .contact'));
-    $('.hd_menu_inner .contact').prepend('<span>contact</span>');
-
+    // Header
+    $('.hd_menu_inner ul').append('<li><a>contact</a></li>');
+    $('.hd_menu_inner li:eq(-1)').append($('.hd_rt .contact'));
+    // Section : Profile
     $('.profile_info .personal li:eq(2)').after('<br>');
-
+    // Section : Portfolio
     $('.project_list a').attr('href','#none');
 
     /* Header */
@@ -70,6 +71,11 @@ $(function(){
       }
     })
 
+    $('.hd_menu_inner li:eq(-1)').click(function(){
+      $(this).toggleClass('active');
+      $('.hd_menu_inner li:eq(-1) .contact').slideToggle();
+    })
+    
     /* Section : Portfolio */
     $('.project_list li').click(function(){
       $(this).addClass('active');
