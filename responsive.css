@@ -217,7 +217,7 @@
     margin-bottom: 35px;
   }
   .about_tit {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: 5px;
   }
   .about p {
@@ -262,10 +262,11 @@
     width: 60px;
     height: 60px;
   }
-  .project_tit {
+  .project_list .project_tit {
     font-size: 1.3rem;
     margin-left: 10px;
     line-height: 1.5em;
+    white-space: nowrap;
   }
   .project_tit span {
     font-size: 1.1rem;
@@ -316,14 +317,14 @@
     font-size: 1.8rem;
   }
   .project_sub .project_tit span {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin: 0;
+    display: block;
   }
   .project_desc {
     margin-top: 20px;
   }
-  .project_desc span {
-    font-size: 1.6rem;
-  }
+  .project_desc span {}
   .project_sub a {
     font-size: 1.2rem;
     padding: 6px 70px;
@@ -350,7 +351,7 @@
   }
   .cr {
     font-size: 1.1rem;
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   /* Footer */

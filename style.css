@@ -82,7 +82,7 @@ h1.logo a {
 }
 
 .hd_menu_bar {
-  width: 32px;
+  width: 30px;
   height: 22px;
   display: flex;
   align-items: center;
@@ -101,7 +101,7 @@ h1.logo a {
   transition: 0.25s;
 }
 .hd_menu_bar span:nth-child(2) {
-  width: 22px;
+  width: 20px;
 }
 @media (hover:hover) {
   .hd_menu_bar:hover span,
@@ -616,13 +616,16 @@ section.portfolio .section_tit_wr {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
-  margin-left: 15px;
 }
 .project_tit span {
   font-size: 15px;
   color: #716b79;
   display: block;
 }
+.project_list .project_tit {
+  margin-left: 15px;
+}
+
 @media (hover:hover) {
   .project_list li:hover .project_tit {
     text-decoration: underline;
