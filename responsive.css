@@ -126,7 +126,7 @@
   /* Section Tit Common */
   .section_tit_wr {
     margin-bottom: 40px;
-    margin-left: 20px;
+    margin-left: 12px;
   }
 
   .section_tit_wr .shape_one,
@@ -317,16 +317,18 @@
     font-size: 1.8rem;
   }
   .project_sub .project_tit span {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0;
     display: block;
   }
   .project_desc {
     margin-top: 20px;
   }
-  .project_desc span {}
+  .project_desc span {
+    font-size: 1.5rem;
+  }
   .project_sub a {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 6px 70px;
     margin-top: 25px;
   }
@@ -368,6 +370,26 @@
 
 @media screen and (max-width:767px) {
   /* Section : Portfoilo */
+  section.portfolio .section_tit_wr {
+    margin-bottom: 40px;
+  }
+
+  .project_list li {
+    flex: 1;
+    width: 100%;
+  }
+  .project_list a {
+    padding: 20px 0 15px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .project_list .project_tit {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+
+
   .project_img_wr {
     white-space: nowrap;
   }
