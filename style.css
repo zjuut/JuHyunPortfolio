@@ -60,6 +60,7 @@ a {
   color: #222;
 }
 button {
+  color: #222;
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -1019,6 +1020,8 @@ footer .info p {
   .project#gmz_main .project_img_pc:active,
   .project#gmz_main .project_img_m:active {
     background-position: bottom;
+    pointer-events: none;
+    
   }
 
   .project_sub {
