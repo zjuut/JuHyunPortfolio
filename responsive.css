@@ -125,7 +125,7 @@
 
   /* Section Tit Common */
   .section_tit_wr {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     margin-left: 12px;
   }
 
@@ -149,7 +149,7 @@
   }
 
   .profile_wr {
-    margin-top: 150px;
+    margin-top: 140px;
   }
 
   .profile_img {
@@ -206,7 +206,7 @@
 
   /* Section : About Me */
   section.aboutme {
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   .about_wr {
@@ -226,10 +226,10 @@
 
   /* Section : Portfoilo */
   section.portfolio {
-    margin-top: 120px;
+    margin-top: 80px;
   }
   section.portfolio .section_tit_wr {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
   
   .portfolio_wr {
@@ -285,11 +285,13 @@
     display: none;
   }
 
+  .project_img_wr {
+    user-select: none;
+    -webkit-user-drag: none;
+  }
   .project_img_pc,
   .project_img_m {
     height: 290px;
-    user-select: none;
-    -webkit-user-drag: none;
   }
   .project_img_pc {
     width: 460px;
@@ -337,7 +339,7 @@
   /* Footer */
   footer {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .ft_inner {
     padding: 0 20px 40px 20px;
@@ -369,10 +371,20 @@
 }
 
 @media screen and (max-width:767px) {
-    /* Section : Main */
-    .main_txt p {
-      font-size: 4.2rem;
-    }  
+  /* Section : Main */
+  .main_txt p {
+    font-size: 4.2rem;
+  }
+
+  /* Section : Profile */
+  .profile_info .personal li {
+    display: block;
+  }
+  .profile_info .personal li:not(:last-child) {
+    margin-right: 0;
+  }
+
+
 
   /* Section : Portfoilo */
   section.portfolio .section_tit_wr {
