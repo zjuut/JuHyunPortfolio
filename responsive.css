@@ -325,7 +325,7 @@
     font-size: 1.6rem;
   }
   .project_sub a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 6px 70px;
     margin-top: 25px;
   }
@@ -340,7 +340,27 @@
     padding: 0 20px 40px 20px;
   }
   .ft_lt {
-    line-height: 1.5em;
+    line-height: 1.2em;
+  }
+  footer .info {
+    font-size: 1.1rem;
+  }
+  footer .info span {
+    font-size: 1rem;
+  }
+  .cr {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  /* Footer */
+  .top_btn {
+    width: 38px;
+    height: 38px;
+  }
+  .top_btn i {
+    font-size: 1.4rem;
+    line-height: 38px;
   }
 
 }
@@ -363,14 +383,5 @@
 
 
 
-  /* Footer */
-  .top_btn {
-    width: 35px;
-    height: 35px;
-  }
-  .top_btn i {
-    font-size: 1.4rem;
-    line-height: 35px;
-  }
 
 }
