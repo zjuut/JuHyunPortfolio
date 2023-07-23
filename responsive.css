@@ -5,7 +5,7 @@
     line-height: 1.8em;
   }
   h2 {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
   }
   h3 {
     font-size: 2rem;
@@ -153,8 +153,8 @@
   }
 
   .profile_img {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -164,7 +164,7 @@
     width: 100%;
     margin: 0;
     border-radius: 16px;
-    padding: 145px 40px 30px 40px;
+    padding: 120px 40px 30px 40px;
     flex-direction: column;
     gap: 35px;
     text-align: center;
@@ -176,10 +176,10 @@
     margin-bottom: 8px;
   }  
   .profile_info p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .profile_info small {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .profile_info .personal li {
