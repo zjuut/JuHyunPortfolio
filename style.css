@@ -475,8 +475,6 @@ section.profile {
   margin: 3px 0;
   position: relative;
 }
-@media (hover:hover) {
-}
 .profile_info button:hover {
   background-color: #d0badf;
   color: #fff;
@@ -686,14 +684,14 @@ section.portfolio .section_tit_wr {
   background-size: cover;
 }
 @media (hover:hover) {
-}
-.project#sky_main .project_img_pc:hover,
-.project#sky_main .project_img_m:hover,
-.project#sky_sub .project_img_pc:hover,
-.project#sky_sub .project_img_m:hover,
-.project#gmz_main .project_img_pc:hover,
-.project#gmz_main .project_img_m:hover {
-  background-position: bottom;
+  .project#sky_main .project_img_pc:hover,
+  .project#sky_main .project_img_m:hover,
+  .project#sky_sub .project_img_pc:hover,
+  .project#sky_sub .project_img_m:hover,
+  .project#gmz_main .project_img_pc:hover,
+  .project#gmz_main .project_img_m:hover {
+    background-position: bottom;
+  }
 }
 
 .project_sub {

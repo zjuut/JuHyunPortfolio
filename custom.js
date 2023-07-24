@@ -85,9 +85,9 @@ $(function(){
       $('.project_img_m , .project_img_pc').css('background-position','top');
     })
 
-    // $('.project_img_m , .project_img_pc').click(function(){
-    //   $(this).css('background-position','bottom');
-    // })
+    $('.project_img_m , .project_img_pc').click(function(){
+      $(this).css('background-position','bottom');
+    })
 
   }
 
@@ -101,9 +101,6 @@ $(function(){
     $('.project_desc p br').remove();
     // Footer
     $('footer .info span:eq(2)').before('<br>');
-
-
-
 
   }
 })

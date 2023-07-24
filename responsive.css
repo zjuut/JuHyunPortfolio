@@ -208,13 +208,7 @@
   }
   .profile_tag_wr button {
     font-size: 1.2rem;
-  }
-  /* .profile_info button:hover,
-  .profile_info button:active {
-    background-color: #d0badf;
-    color: #fff;
-  } */
-  
+  }  
 
   /* Section : About Me */
   section.aboutme {
@@ -339,7 +333,6 @@
     padding: 6px 70px;
     margin-top: 25px;
   }
-
 
   /* Footer */
   footer {
