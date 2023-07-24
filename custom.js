@@ -88,8 +88,12 @@ $(function(){
 
   if(window.matchMedia('screen and (max-width : 767px)').matches){
     /* HTML Change */
+    // Section : Main
     $('.main_txt p:eq(1)').html('강주현의<br>포트폴리오입니다');
+    // Section : Profile
+    $('.profile_info .personal br').remove();
     $('.project_desc p br').remove();
+    // Footer
     $('footer .info span:eq(2)').before('<br>');
 
 
