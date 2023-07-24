@@ -302,15 +302,6 @@
     margin-left: 30px;
   }
 
-  /* .project#sky_main .project_img_pc:active,
-  .project#sky_main .project_img_m:active,
-  .project#sky_sub .project_img_pc:active,
-  .project#sky_sub .project_img_m:active,
-  .project#gmz_main .project_img_pc:active,
-  .project#gmz_main .project_img_m:active {
-    background-position: bottom;
-  } */
-
   .project_sub {
     margin-top: 35px;
     border-radius: 16px;
@@ -378,6 +369,21 @@
 }
 
 @media screen and (max-width:767px){
+  /* Header */
+  .hd_menu_inner .contact p {
+    display: block;
+  }
+  .hd_menu_inner .contact .tel {
+    padding-top: 20px;
+  }
+  .hd_menu_inner .contact .mail {
+    padding-top: 15px;
+  }
+
+  .hd_menu_inner .contact p.mail {
+    transform: unset;
+  }
+
   /* Section : Main */
   .main_txt p {
     font-size: 4.2rem;
@@ -394,9 +400,6 @@
     white-space: pre-wrap;
   }
   
-
-
-
   /* Section : Portfoilo */
   .project_list li {
     flex: 1;
