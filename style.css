@@ -475,10 +475,11 @@ section.profile {
   position: relative;
 }
 @media (hover:hover) {
-  .profile_info button:hover {
-    background-color: #d0badf;
-    color: #fff;
-  }
+}
+.profile_info button:hover,
+.profile_info button:active {
+  background-color: #d0badf;
+  color: #fff;
 }
 @keyframes reaction {
   0% {
@@ -489,7 +490,8 @@ section.profile {
     opacity: 0;
   }  
 }
-.profile_tag_wr button:focus::after {
+.profile_tag_wr button:focus::after,
+.profile_tag_wr button:active::after {
   font-family: fontawesome, xeicon;
   position: absolute;
   top: -32px;
