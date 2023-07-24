@@ -1,4 +1,4 @@
-@media screen and (max-width:1023px) and (orientation: portrait){
+@media screen and (max-width:1023px){
   /* CSS */
   body {
     font-size: 1.4rem;
@@ -125,7 +125,7 @@
 
   /* Section Tit Common */
   .section_tit_wr {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 12px;
   }
 
@@ -164,7 +164,7 @@
     width: 100%;
     margin: 0;
     border-radius: 16px;
-    padding: 120px 40px 30px 40px;
+    padding: 110px 25px 25px 25px;
     flex-direction: column;
     gap: 35px;
     text-align: center;
@@ -172,9 +172,12 @@
   .profile_info_tit {
     margin-bottom: 10px;
   }
-  .profile_info li:not(:last-child) {
-    margin-bottom: 8px;
-  }  
+  .profile_info ul {
+    line-height: 1.5em;
+  }
+  .profile_info span {
+    font-size: 1.3rem;
+  }
   .profile_info p {
     font-size: 1.4rem;
   }
@@ -193,15 +196,17 @@
   }
   .profile_info .personal p {
     display: inline-block;
-    margin-left: 8px;
+    margin-left: 5px;
   }
 
   .profile_tag_wr {
-    margin: 5px 0 12px 0;
+    margin: 2px 0 12px 0;
+  }
+  .profile_tag_wr:last-child {
+    margin-bottom: 0;
   }
   .profile_info button {
     font-size: 1.2rem;
-    margin: 0;
   }
 
   /* Section : About Me */
@@ -229,7 +234,7 @@
     margin-top: 80px;
   }
   section.portfolio .section_tit_wr {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
   
   .portfolio_wr {
@@ -276,7 +281,7 @@
 
   .project_wr {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .project:not(:last-child) {
     margin-bottom: 0;
@@ -285,20 +290,9 @@
     display: none;
   }
 
-  .project_img_wr {
-    user-select: none;
-    -webkit-user-drag: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  }
   .project_img_pc,
   .project_img_m {
     height: 290px;
-
-    user-select: none;
-    -webkit-user-drag: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
   }
   .project_img_pc {
     width: 460px;
@@ -308,19 +302,19 @@
     margin-left: 30px;
   }
 
-  .project#sky_main .project_img_pc:active,
+  /* .project#sky_main .project_img_pc:active,
   .project#sky_main .project_img_m:active,
   .project#sky_sub .project_img_pc:active,
   .project#sky_sub .project_img_m:active,
   .project#gmz_main .project_img_pc:active,
   .project#gmz_main .project_img_m:active {
     background-position: bottom;
-  }
+  } */
 
   .project_sub {
     margin-top: 35px;
     border-radius: 16px;
-    padding: 35px 40px 40px 40px;
+    padding: 20px 25px;
   }
   .project_sub .project_tit {
     font-size: 1.8rem;
@@ -333,9 +327,15 @@
   .project_desc {
     margin-top: 20px;
   }
+  .project_desc li:not(:last-child) {
+    margin-bottom: 12px;
+  }  
   .project_desc span {
     font-size: 1.5rem;
   }
+  .project_desc p {
+    margin-top: 2px;
+  }  
   .project_sub a {
     font-size: 1.3rem;
     padding: 6px 70px;
@@ -377,7 +377,7 @@
 
 }
 
-@media screen and (max-width:767px) and (orientation: portrait){
+@media screen and (max-width:767px){
   /* Section : Main */
   .main_txt p {
     font-size: 4.2rem;
@@ -390,14 +390,14 @@
   .profile_info .personal li:not(:last-child) {
     margin-right: 0;
   }
+  .profile_info .education p {
+    white-space: pre-wrap;
+  }
+  
 
 
 
   /* Section : Portfoilo */
-  section.portfolio .section_tit_wr {
-    margin-bottom: 40px;
-  }
-
   .project_list li {
     flex: 1;
     width: 100%;

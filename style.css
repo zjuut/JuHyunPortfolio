@@ -465,7 +465,7 @@ section.profile {
 .profile_tag_wr {
   margin: 5px 0 15px 0;
 }
-.profile_info button {
+.profile_tag_wr button {
   text-transform: uppercase;
   font-size: 15px;
   border: 2px solid #d0badf;

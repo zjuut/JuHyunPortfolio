@@ -82,6 +82,11 @@ $(function(){
       $(this).siblings().removeClass('active');
       $('.project').eq($(this).index()).show();
       $('.project').eq($(this).index()).siblings().hide();
+      $('.project_img_m , .project_img_pc').css('background-position','top');
+    })
+
+    $('.project_img_m , .project_img_pc').click(function(){
+      $(this).css('background-position','bottom');
     })
 
   }
