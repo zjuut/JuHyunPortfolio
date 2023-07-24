@@ -132,15 +132,16 @@
   .section_tit_wr .shape_one,
   .section_tit_wr .shape_two,
   .section_tit_wr .shape_three {
-    scale: 0.75;
-    top: -18px;
-    left: -17px;
+    scale: 0.7;
+    top: -13px;
+    left: -16px;
   }
   .section_tit_wr .shape_two {
-    left: -20px;
+    left: -22px;
   }
   .section_tit_wr .shape_three {
-    top: -24px;
+    top: -17px;
+    left: -17px;
   }
   
   /* Section : Profile */
@@ -208,11 +209,11 @@
   .profile_tag_wr button {
     font-size: 1.2rem;
   }
-  .profile_info button:hover,
-  .profile_info button:focus {
+  /* .profile_info button:hover,
+  .profile_info button:active {
     background-color: #d0badf;
     color: #fff;
-  }
+  } */
   
 
   /* Section : About Me */
@@ -375,6 +376,23 @@
 }
 
 @media screen and (max-width:767px){
+  /* Background Ani : Shape */
+  .bg_ani .shape_zero,
+  .bg_ani .shape_one,
+  .bg_ani .shape_two,
+  .bg_ani .shape_three {
+    scale: 0.7;
+  }
+
+  /* Container */
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  section:not(section.portfolio) {
+    padding: 0 20px;
+  }
   /* Header */
   .hd_menu_inner .contact p {
     display: block;
@@ -409,6 +427,13 @@
   }
   
   /* Section : Portfoilo */
+  section.portfolio .section_tit_wr {
+    margin-left: 32px;
+  }
+
+  .project_list_wr {
+    padding: 0 20px;
+  }
   .project_list li {
     flex: 1;
     width: 100%;
@@ -423,11 +448,11 @@
     margin-top: 10px;
   }
 
-
-
   .project_img_wr {
     white-space: nowrap;
     overflow-x: auto;
+    margin-left: 20px;
+    padding-right: 20px;
   }
   .project_img_wr::-webkit-scrollbar {
     display: none;
@@ -450,6 +475,10 @@
     transition: 4s 0.15s ease-in-out;
   }
   
+  .project_sub {
+    margin: 20px;
+    margin-bottom: 0;
+  }
 
 
 
