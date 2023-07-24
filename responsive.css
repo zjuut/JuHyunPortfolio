@@ -1,4 +1,4 @@
-@media screen and (max-width:1023px) {
+@media screen and (max-width:1023px) and (orientation: portrait){
   /* CSS */
   body {
     font-size: 1.4rem;
@@ -288,10 +288,17 @@
   .project_img_wr {
     user-select: none;
     -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   .project_img_pc,
   .project_img_m {
     height: 290px;
+
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   .project_img_pc {
     width: 460px;
@@ -370,7 +377,7 @@
 
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px) and (orientation: portrait){
   /* Section : Main */
   .main_txt p {
     font-size: 4.2rem;
