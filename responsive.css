@@ -208,7 +208,60 @@
   }
   .profile_tag_wr button {
     font-size: 1.2rem;
-  }  
+  }
+  .profile_tag_wr button:hover::after {
+  font-family: fontawesome, xeicon;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  z-index: 100;
+  transform: translateX(-50%);
+  cursor: default;
+  pointer-events: none;
+  opacity: 0;
+  animation: reaction 1s linear;
+}
+.work_tag button:hover::after {
+  top: -36px;
+}
+.html:hover::after {
+  content: '\f13b';
+  color: #e14921;
+  font-size: 28px;
+}
+.css:hover::after {
+  content: '\f38b';
+  color: #006eba;
+  font-size: 28px;
+}
+.jquery:hover::after {
+  content: '';
+  width: 22px;
+  height: 25px;
+  background: url(images/js_icon.svg) no-repeat;
+  background-size: cover;
+  top: -34px;
+}
+.ps:hover::after {
+  content: '\ec02';
+  font-size: 32px;
+  color: #5bb2f9;
+}
+.ai:hover::after {
+  content: '\ebe8';
+  font-size: 32px;
+  color: #f79500;
+}
+.like_tag button:hover::after {
+  content: '\f004';
+  color: red;
+  font-size: 24px;
+}
+.hate_tag button:hover::after {
+  content: '\f165';
+  color: #222;
+  font-size: 24px;
+}
 
   /* Section : About Me */
   section.aboutme {
